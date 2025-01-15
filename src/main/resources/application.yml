@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: Redis-Distributed-Locking
+  data:
+    redis:
+      host: 127.0.0.1
+      port: 6379
+
+#update below properties for every parallel instance
+instanceId: 1 #2, 3, 4
+
+server:
+  port: 8081 #8082, 8083, 8084
